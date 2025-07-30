@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sales Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: sans-serif;
+    }
+    .container {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    .header {
+      background: #004080;
+      color: white;
+      padding: 10px 20px;
+      font-size: 18px;
+    }
+    iframe {
+      flex: 1;
+      border: none;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">📊 Sales Performance Dashboard (Masked)</div>
+    <iframe src="https://public.tableau.com/views/RegionalSampleWorkbook/Storms?:embed=yes&:toolbar=no"
+            allowfullscreen>
+    </iframe>
+  </div>
+</body>
+</html>
